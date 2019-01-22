@@ -4,6 +4,18 @@ You can use the [editor on GitHub](https://github.com/vtreanor/android/edit/mast
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+
+```markdown
+ public void setPet(GetMyPetQuery.GetMyPet pet) {
+        this.pet = pet;
+        setPetname(pet.name());
+        setPetbreed(pet.breed());
+        setPetdob(pet.dob());
+        setPetnote(pet.note());
+        setPetShots(pet.shots());
+    }
+```
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
